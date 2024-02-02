@@ -16,6 +16,7 @@ Gestion des versions : Docker permet de gérer facilement les différentes versi
 
 En résumé, Docker facilite le développement, le déploiement et la gestion des applications en fournissant un moyen portable, léger et efficace pour les empaqueter et les exécuter de manière cohérente sur divers environnements informatiques.
 
+PS : on ne doit pas redémarrer un conteneur, on allume et stop des image c'est tout !
 
 #Qu'est ce que la CI et la CD ? Pourquoi est-ce utile ?
 
@@ -42,6 +43,7 @@ En résumé, la CI/CD est utile car elle automatise et rationalise le processus 
 #Qu'avez vous pensez du cours ?
 
 Dommage que le DS et le cours soit exactement la même chose.
+Un DM complexe en bonus n'est pas de refus
 
 #Surprenez moi
 
