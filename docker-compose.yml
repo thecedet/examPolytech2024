@@ -30,6 +30,15 @@ services:
       database:
         condition: service_healthy
         restart: true
+  frontend:
+    image: ds-frontend
+    container_name: frontend
+    ports:
+      - 80:80
+    environment:
+      - BACKEND_URL=http://192.168.1.65:8448
+    depends_on:
+      - backend
 
 volumes:
   sql:

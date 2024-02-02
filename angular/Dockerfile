@@ -6,7 +6,7 @@ RUN npm run build --configuration=production
 
 FROM nginx:alpine
 COPY nginx/ /etc/nginx/
-COPY --from=builder /app/dist/*/* /usr/share/nginx/html
+COPY --from=builder /app/dist/* /usr/share/nginx/html
 
 COPY entrypoint.sh /docker-entrypoint.d/entrypoint.sh
 

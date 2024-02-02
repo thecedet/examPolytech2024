@@ -1,0 +1,52 @@
+#Qu'est ce que Docker ? A quoi cela sert-il ?
+
+Docker est une plateforme logicielle open-source qui permet de créer, déployer et exécuter des applications dans des conteneurs. Un conteneur est une unité d'exécution légère et portable qui contient tout le nécessaire pour exécuter une application, y compris le code, les bibliothèques, les dépendances et les configurations.
+
+Voici quelques-uns des principaux avantages de l'utilisation de Docker :
+
+Portabilité : Les conteneurs Docker sont indépendants de l'environnement, ce qui signifie qu'ils peuvent être exécutés de manière cohérente sur n'importe quel système compatible Docker, qu'il s'agisse d'un ordinateur portable, d'un serveur physique ou d'un cloud public.
+
+Isolation : Chaque conteneur fonctionne de manière isolée, ce qui garantit qu'une application n'affecte pas les autres applications s'exécutant sur le même système.
+
+Efficacité : Les conteneurs partagent le noyau de l'OS hôte, ce qui les rend beaucoup plus légers que les machines virtuelles, et donc plus efficaces en termes d'utilisation des ressources.
+
+Facilité de déploiement : Docker simplifie le processus de déploiement des applications en encapsulant tous les éléments nécessaires dans un conteneur, ce qui rend le déploiement rapide et reproductible.
+
+Gestion des versions : Docker permet de gérer facilement les différentes versions d'une application, en les encapsulant dans des images Docker et en les distribuant via un registre Docker, comme Docker Hub.
+
+En résumé, Docker facilite le développement, le déploiement et la gestion des applications en fournissant un moyen portable, léger et efficace pour les empaqueter et les exécuter de manière cohérente sur divers environnements informatiques.
+
+
+#Qu'est ce que la CI et la CD ? Pourquoi est-ce utile ?
+
+La CI (Intégration Continue) et la CD (Livraison Continue) sont des pratiques de développement logiciel qui visent à automatiser et à améliorer le processus de développement, de test et de déploiement des applications.
+
+Intégration Continue (CI) :
+La CI consiste à intégrer régulièrement le code produit par les développeurs dans un référentiel partagé (comme Git), puis à construire et à tester automatiquement l'application à chaque modification du code source. Cela permet de détecter rapidement les erreurs de code, les conflits d'intégration et les problèmes de compatibilité, garantissant ainsi une base de code stable et fonctionnelle. Les outils de CI populaires incluent Jenkins, Travis CI, CircleCI, GitLab CI, entre autres.
+
+Livraison Continue (CD) :
+La CD va un peu plus loin que la CI. Elle vise à automatiser le processus de déploiement des applications après la phase de test. Cela signifie que chaque fois qu'un ensemble de fonctionnalités est prêt et passe avec succès les tests de CI, il est automatiquement déployé dans l'environnement de production ou de pré-production, prêt à être utilisé par les utilisateurs finaux. La CD garantit que les nouvelles fonctionnalités peuvent être rapidement et facilement mises à la disposition des utilisateurs sans délai ni risque excessif. Les outils de CD incluent Jenkins (également utilisé pour la CI), GitLab CI/CD, CircleCI, et des plateformes de déploiement continue spécialisées comme Spinnaker.
+
+#Pourquoi est-ce utile ?
+
+Rapidité : La CI/CD automatise les tâches répétitives et chronophages telles que la compilation, les tests et le déploiement, accélérant ainsi le processus de développement et de livraison.
+
+Fiabilité : Les tests automatisés effectués à chaque étape du processus garantissent que seules les modifications de code fonctionnelles et sans régression sont déployées, réduisant ainsi les risques d'erreurs en production.
+
+Collaboration : La CI/CD encourage une collaboration efficace entre les membres de l'équipe en fournissant une base de code toujours à jour et fonctionnelle sur laquelle ils peuvent travailler.
+
+Feedback rapide : Les développeurs reçoivent un retour d'information immédiat sur la qualité de leur code, ce qui leur permet de corriger les erreurs plus rapidement et d'améliorer continuellement la qualité du logiciel.
+
+En résumé, la CI/CD est utile car elle automatise et rationalise le processus de développement logiciel, accélérant ainsi le temps de mise sur le marché, améliorant la qualité du code et facilitant la collaboration au sein des équipes de développement.
+
+#Qu'avez vous pensez du cours ?
+
+Dommage que le DS et le cours soit exactement la même chose.
+
+#Surprenez moi
+
+Je peux vous envoyer mon CV
+
+#Créer un repo sur github et pusher votre code
+
+https://gitlab.dorlet.me/thecedet/ds-docker
